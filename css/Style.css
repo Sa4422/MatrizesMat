@@ -1,0 +1,83 @@
+body{
+    background-color:aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+
+    text-align:center; 
+    
+}
+.bolha{
+    border-radius: 20%;
+    border: 1px solid  rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.1);
+}
+.linha{
+    color: black;
+    text-align: center;
+    border: 1px solid  rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.5);
+}
+table{
+    border-collapse:collapse;
+    border: 1px solid black;
+
+}
+th, td{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    
+}
+td{
+    border: none;
+}
+tr:nth-child(2n){
+
+    background-color: aliceblue;
+    
+}
+thead{
+    background-color: rgb(9, 182, 9);
+    font-weight: bold;
+    color: white;
+}
+tbody{
+    vertical-align: bottom;
+    text-align: left;
+
+}
+.esquerda{
+    float: left;
+    
+}
+.direita{
+    float: right;
+    
+}
+.block{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.mais{
+    font-size: 500%;
+  line-height: 2;
+  margin: 0 2%;
+
+}
+ul { 
+    display: flex; 
+    list-style:none; 
+    font-size: 400%; 
+    font-weight: 800; 
+    padding: 0; 
+    margin: 0;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    border: solid lime;
+    border-width: 0 5px;
+    min-width: 150px;
+    }
